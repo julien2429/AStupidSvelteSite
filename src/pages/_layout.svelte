@@ -26,11 +26,15 @@
   }
   function handle(e){
 	let address=document.getElementById("search").value;
-  console.log(e.keyCode);
-    if(e.keyCode === 13)
-    {
-    	$goto('./search/'+address);
-    }
+  console.log(address);
+  if(address)
+  {
+    $goto('./search/'+address);
+  }
+  else
+  {
+    $goto('../../');
+  }
 	return false;
 }
 </script>
@@ -43,7 +47,7 @@
       id="search"
       type="text"
       placeholder="Type something here"
-      on:keypress={handle}
+      on:keyup={handle}
     />
     <button class="search_button" on:click={search_func}>search</button>
     <button class="register_btn" on:click={show_register}>Register</button>
