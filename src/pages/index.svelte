@@ -13,7 +13,8 @@ import { urlToRoute } from "@roxi/routify/runtime/utils/urlToRoute";
     <img class="h1" src="../Poze/Logo.jpg" alt="Logo" />
     <img class="Carte" src="../Poze/Carti.png" alt="Cardati" />
   </div>
-  <div class="side-bar" />
+  <div class="side-bar" >
+  </div>
   
 </main>
 

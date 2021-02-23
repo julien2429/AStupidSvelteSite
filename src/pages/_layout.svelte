@@ -61,60 +61,58 @@
 
 <style>
   .acasa{
-    position: relative;
-    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 20px;
     color: white;
-    top:10%;
-    margin-left: 10px;
     font-weight: 400;
-    font-size: 120%;
+    font-size: 160%;
   }
   .search_button {
-    position: relative;
-    float: left;
-    height:98%;
-    margin-left: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: solid 3px rgb(0, 0, 0);
+    background-image: url("../Poze/search.png");
     z-index: 39;
+    border-radius: 1500px;
   }
   .search_field {
-    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-self: center;
     color: rgb(20, 20, 20);
-    float: left;
-    margin-left: 30px;
-    top: 0;
+    border: solid 3px rgb(0, 0, 0);
     font-style: italic;
-    height:98%;
     z-index: 39;
+    border-radius: 500px;
   }
   .login_btn {
-    position: relative;
-    float: right;
+    margin-top: auto;
+    margin-bottom: auto;
     border: solid 3px rgb(0, 0, 0);
-    top: 0;
     font-style: italic;
-    height: 40px;
-    width: 80px;
+    border-radius: 500px;
     z-index: 40;
   }
   .register_btn {
-    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;    
     border: solid 3px rgb(0, 0, 0);
-    float: right;
-    margin-right: 80px;
-    top: 0;
     font-style: italic;
-    height: 40px;
-    width: 80px;
+    border-radius: 500px;
     z-index: 40;
   }
   .top_line {
-    position: relative;
-    top: 0;
-    left: 0;
+    position:sticky;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
     border-bottom: 6px solid rgb(3, 3, 3);
     background-color: rgb(56, 55, 55);
-    width: 100%;
-    height: 40px;
     z-index: 40;
   }
 </style>
